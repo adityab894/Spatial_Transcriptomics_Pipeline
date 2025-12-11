@@ -1,0 +1,167 @@
+{
+    "cancer_markers_by_category": {
+        "tumor_suppressors": [
+            "TP53", "RB1", "APC", "PTEN", "VHL", "CDKN2A", "CDKN1A", "CDKN1B", 
+            "CDKN2B", "NF1", "NF2", "LKB1", "STK11", "TSC1", "TSC2", "SMAD4",
+            "DCC", "FHIT", "WWOX", "PTCH1", "SUFU", "MEN1", "HRPT2", "FLCN"
+        ],
+        "oncogenes": [
+            "KRAS", "NRAS", "HRAS", "MYC", "MYCN", "MYCL", "EGFR", "ERBB2", 
+            "ERBB3", "ERBB4", "BRAF", "RAF1", "PIK3CA", "AKT1", "AKT2", "AKT3",
+            "MTOR", "MDM2", "MDM4", "CCND1", "CCNE1", "CDK4", "CDK6", "E2F1",
+            "FOS", "JUN", "ABL1", "SRC", "YES1", "FYN", "ALK", "ROS1", "MET",
+            "RET", "KIT", "PDGFRA", "PDGFRB", "FLT3", "JAK2", "STAT3", "STAT5A"
+        ],
+        "dna_repair": [
+            "BRCA1", "BRCA2", "ATM", "ATR", "CHEK1", "CHEK2", "MLH1", "MSH2", 
+            "MSH6", "PMS2", "MUTYH", "NTHL1", "POLE", "POLD1", "BRIP1", "PALB2",
+            "RAD51", "RAD52", "RAD54L", "XRCC1", "XRCC2", "XRCC3", "ERCC1", 
+            "ERCC2", "ERCC3", "ERCC4", "ERCC5", "XPA", "XPC", "MGMT", "FANCF",
+            "FANCA", "FANCB", "FANCC", "FANCD2", "FANCE", "FANCG", "WRN", "BLM"
+        ],
+        "growth_factors_receptors": [
+            "EGFR", "ERBB2", "ERBB3", "ERBB4", "IGF1R", "INSR", "VEGFR1", 
+            "VEGFR2", "VEGFR3", "PDGFRA", "PDGFRB", "FGFR1", "FGFR2", "FGFR3", 
+            "FGFR4", "MET", "RET", "ALK", "ROS1", "KIT", "FLT3", "CSF1R",
+            "VEGFA", "VEGFB", "VEGFC", "VEGFD", "PDGFA", "PDGFB", "IGF1", "IGF2"
+        ],
+        "apoptosis_regulators": [
+            "BCL2", "BCL2L1", "BCL2L2", "MCL1", "BAX", "BAK1", "BAD", "BID", 
+            "BIM", "PUMA", "NOXA", "FAS", "FASL", "TNF", "TRAIL", "DR4", "DR5",
+            "CASP3", "CASP8", "CASP9", "CASP10", "XIAP", "SURVIVIN", "BIRC5",
+            "BIRC2", "BIRC3", "APAF1", "CYTC", "SMAC", "AIF", "ENDOG"
+        ],
+        "transcription_factors": [
+            "MYC", "MYCN", "MYCL", "FOS", "JUN", "JUNB", "JUND", "E2F1", "E2F2",
+            "E2F3", "TP53", "TP63", "TP73", "STAT1", "STAT3", "STAT5A", "STAT5B",
+            "TCF7L2", "LEF1", "TWIST1", "SNAIL1", "SLUG", "ZEB1", "ZEB2", "SOX2",
+            "OCT4", "NANOG", "KLF4", "RUNX1", "ETS1", "ETS2", "ELK1", "SRF"
+        ],
+        "cell_cycle_regulators": [
+            "CCND1", "CCND2", "CCND3", "CCNE1", "CCNE2", "CCNA1", "CCNA2", 
+            "CCNB1", "CCNB2", "CDK1", "CDK2", "CDK4", "CDK6", "CDKN1A", "CDKN1B",
+            "CDKN2A", "CDKN2B", "CDKN2C", "CDKN2D", "RB1", "RBL1", "RBL2",
+            "E2F1", "E2F2", "E2F3", "PLK1", "AURKA", "AURKB", "AURKC"
+        ],
+        "metastasis_invasion": [
+            "CDH1", "CDH2", "VIM", "FN1", "MMP1", "MMP2", "MMP3", "MMP7", "MMP8",
+            "MMP9", "MMP10", "MMP11", "MMP12", "MMP13", "MMP14", "TIMP1", "TIMP2",
+            "TIMP3", "TIMP4", "UPAR", "PLAUR", "PLAU", "CTSK", "CTSB", "CTSD",
+            "TWIST1", "SNAIL1", "SLUG", "ZEB1", "ZEB2", "FOXC2", "GSC"
+        ],
+        "angiogenesis": [
+            "VEGFA", "VEGFB", "VEGFC", "VEGFD", "VEGFR1", "VEGFR2", "VEGFR3", 
+            "ANGPT1", "ANGPT2", "TEK", "PDGFA", "PDGFB", "PDGFRA", "PDGFRB",
+            "FGF2", "FGFR1", "FGFR2", "EGF", "EGFR", "HIF1A", "HIF2A", "VHL",
+            "EPAS1", "ARNT", "THBS1", "THBS2", "PF4", "TIMP1", "PECAM1"
+        ],
+        "immune_checkpoint": [
+            "PD1", "PDCD1", "PDL1", "CD274", "PDL2", "PDCD1LG2", "CTLA4", 
+            "CD80", "CD86", "LAG3", "TIM3", "HAVCR2", "TIGIT", "BTLA", "CD47",
+            "SIRPA", "SIGLEC15", "VISTA", "B7H3", "CD276", "B7H4", "VTCN1",
+            "ICOS", "ICOSLG", "OX40", "OX40L", "4-1BB", "4-1BBL", "GITR", "GITRL"
+        ],
+        "cancer_stem_cells": [
+            "CD44", "CD133", "PROM1", "ALDH1A1", "ALDH1A2", "ALDH1A3", "SOX2", 
+            "OCT4", "POU5F1", "NANOG", "KLF4", "BMI1", "NOTCH1", "NOTCH2", 
+            "NOTCH3", "NOTCH4", "WNT1", "WNT3A", "CTNNB1", "LGR5", "DCLK1",
+            "MSI1", "ABCB1", "ABCG2", "CD24", "EZH2", "SUZ12", "EED"
+        ],
+        "drug_resistance": [
+            "ABCB1", "MDR1", "ABCC1", "MRP1", "ABCG2", "BCRP", "ABCC2", "MRP2",
+            "ABCC3", "MRP3", "ABCC4", "MRP4", "ABCC5", "MRP5", "TYMS", "DPYD",
+            "UGT1A1", "GSTP1", "GSTM1", "GSTT1", "CYP3A4", "CYP2D6", "ERCC1",
+            "RRM1", "TUBB3", "TOP1", "TOP2A", "TPMT", "MTHFR", "RFC1"
+        ],
+        "telomere_maintenance": [
+            "TERT", "TERC", "TR", "DKC1", "NOP10", "NHP2", "GAR1", "TCAB1",
+            "POT1", "TRF1", "TRF2", "TIN2", "TPP1", "RAP1", "RTEL1", "WRN",
+            "BLM", "RECQL4", "RECQL5", "ATM", "ATR", "DNA2", "EXO1"
+        ],
+        "hormone_related": [
+            "AR", "ESR1", "ESR2", "PGR", "SHBG", "CYP19A1", "CYP17A1", "HSD17B1",
+            "HSD17B2", "SRD5A1", "SRD5A2", "COMT", "UGT2B15", "UGT2B17", "SULT1E1",
+            "GPER1", "NCOA1", "NCOA2", "NCOA3", "NCOR1", "NCOR2", "SMRT"
+        ],
+        "metabolic": [
+            "IDH1", "IDH2", "FH", "SDH", "SDHA", "SDHB", "SDHC", "SDHD", "VHL",
+            "HIF1A", "EPAS1", "PKM2", "LDHA", "LDHB", "GLUT1", "SLC2A1", "HK1",
+            "HK2", "PFKM", "ALDOA", "GAPDH", "PGK1", "ENO1", "G6PD", "FASN"
+        ],
+        "epigenetic_regulators": [
+            "DNMT1", "DNMT3A", "DNMT3B", "TET1", "TET2", "TET3", "HDAC1", "HDAC2",
+            "HDAC3", "HDAC4", "HDAC5", "HDAC6", "HDAC7", "HDAC8", "EZH2", "SUZ12",
+            "EED", "RING1B", "BMI1", "CBX7", "KDM1A", "KDM4A", "KDM4B", "KDM4C",
+            "KDM5A", "KDM5B", "KDM6A", "KDM6B", "SETD2", "MLL1", "MLL2", "MLL3"
+        ]
+    },
+    "cancer_type_specific": {
+        "breast_cancer": [
+            "BRCA1", "BRCA2", "ESR1", "ESR2", "PGR", "ERBB2", "TP53", "PIK3CA",
+            "CDH1", "CHEK2", "ATM", "PALB2", "BRIP1", "RAD51C", "RAD51D", "NBN"
+        ],
+        "lung_cancer": [
+            "EGFR", "KRAS", "ALK", "ROS1", "BRAF", "MET", "RET", "NTRK1", "NTRK2",
+            "NTRK3", "PIK3CA", "STK11", "KEAP1", "NF1", "RBM10", "U2AF1"
+        ],
+        "colorectal_cancer": [
+            "APC", "TP53", "KRAS", "PIK3CA", "FBXW7", "SMAD4", "TCF7L2", "CTNNB1",
+            "BRAF", "NRAS", "MLH1", "MSH2", "MSH6", "PMS2", "POLE", "POLD1"
+        ],
+        "prostate_cancer": [
+            "AR", "TMPRSS2", "ERG", "PTEN", "TP53", "RB1", "FOXA1", "SPOP", "CDK12",
+            "ATM", "BRCA1", "BRCA2", "MSH2", "MSH6", "PMS2", "HOXB13"
+        ],
+        "ovarian_cancer": [
+            "BRCA1", "BRCA2", "TP53", "CCNE1", "PIK3CA", "PTEN", "RB1", "NF1",
+            "CDK12", "KRAS", "NRAS", "BRAF", "CTNNB1", "ARID1A", "PPP2R1A"
+        ],
+        "melanoma": [
+            "BRAF", "NRAS", "KIT", "GNAQ", "GNA11", "CDKN2A", "TP53", "PTEN",
+            "NF1", "RAC1", "PPP6C", "IDH1", "SF3B1", "EIF1AX", "TERT"
+        ],
+        "glioma": [
+            "IDH1", "IDH2", "TP53", "ATRX", "CIC", "FUBP1", "NOTCH1", "PIK3CA",
+            "PIK3R1", "PTEN", "NF1", "PDGFRA", "KIT", "BRAF", "H3F3A", "HIST1H3B"
+        ],
+        "leukemia": [
+            "BCR", "ABL1", "PML", "RARA", "AML1", "ETO", "MYH11", "CBFB", "KIT",
+            "FLT3", "NPM1", "CEBPA", "DNMT3A", "IDH1", "IDH2", "TET2", "ASXL1"
+        ],
+        "skin_cancer": [
+            "BRAF", "NRAS", "KIT", "CDKN2A", "TP53", "PTEN", "NF1", "PIK3CA",
+            "AKT1", "HRAS", "CTNNB1", "PTCH1", "SUFU", "SMO", "GLI1", "GLI2",
+            "TP63", "NOTCH1", "NOTCH2", "FAT1", "CASP8", "AJUBA", "CUL3", "NFE2L2"
+        ]
+    },
+    "pathway_markers": {
+        "p53_pathway": [
+            "TP53", "MDM2", "MDM4", "CDKN1A", "CDKN2A", "ATM", "ATR", "CHEK1", 
+            "CHEK2", "DNA2", "RPA1", "BRCA1", "53BP1", "H2AFX"
+        ],
+        "rb_pathway": [
+            "RB1", "RBL1", "RBL2", "CDKN2A", "CDKN2B", "CDKN1A", "CDKN1B", 
+            "CDK4", "CDK6", "CCND1", "CCND2", "CCND3", "E2F1", "E2F2", "E2F3"
+        ],
+        "pi3k_akt_pathway": [
+            "PIK3CA", "PIK3CB", "PIK3CG", "PIK3CD", "PIK3R1", "PIK3R2", "AKT1", 
+            "AKT2", "AKT3", "PTEN", "TSC1", "TSC2", "MTOR", "RPTOR", "RICTOR"
+        ],
+        "ras_raf_pathway": [
+            "KRAS", "NRAS", "HRAS", "BRAF", "RAF1", "MAP2K1", "MAP2K2", "MAPK1", 
+            "MAPK3", "SOS1", "GRB2", "NF1", "SPRY1", "SPRY2", "DUSP1", "DUSP4"
+        ],
+        "wnt_pathway": [
+            "WNT1", "WNT3A", "WNT5A", "WNT10B", "CTNNB1", "APC", "AXIN1", "AXIN2", 
+            "GSK3B", "DVL1", "DVL2", "DVL3", "TCF7L2", "LEF1", "MYC", "CCND1"
+        ],
+        "notch_pathway": [
+            "NOTCH1", "NOTCH2", "NOTCH3", "NOTCH4", "DLL1", "DLL3", "DLL4", "JAG1", 
+            "JAG2", "RBPJ", "HES1", "HES5", "HEY1", "HEY2", "NUMB", "NUMBL"
+        ],
+        "tgf_beta_pathway": [
+            "TGFB1", "TGFB2", "TGFB3", "TGFBR1", "TGFBR2", "SMAD2", "SMAD3", 
+            "SMAD4", "SMAD7", "SKI", "SKIL", "SMURF1", "SMURF2", "BAMBI"
+        ]
+    }
+}
